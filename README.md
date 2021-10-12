@@ -1,5 +1,21 @@
 # Serverless example
 
+## Setup
+
+This project uses the [express](https://expressjs.com/) web framework, and deploys it to AWS using
+[serverless](https://www.serverless.com/). In order to run commands locally and run the server
+locally, you need to install dependencies:
+
+```
+yarn install
+```
+
+You can then run the server in localdev with:
+
+```
+yarn dev
+```
+
 ## Deploy to AWS
 
 Before you can deploy to AWS, you need to configure your AWS credentials. **This only needs to be
